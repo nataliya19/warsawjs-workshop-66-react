@@ -15,7 +15,6 @@ const Counter = () => {
         }
     };
 
-
     //reset counter
     const reset = () =>{
         setCounter(0)
@@ -24,11 +23,11 @@ const Counter = () => {
     return (
         <div>
           <h1>Counter</h1>
-          <span>{counter}</span>
+          <span data-testid="counter">{counter}</span>
           <div>
-            <button onClick={increase}>+</button>
-            <button onClick={decrease}>-</button>
-            <button onClick={reset}>Reset</button>
+            <button  data-testid="increase-button" onClick={increase}>+</button>
+            <button data-testid="decrease-button" onClick={decrease}>-</button>
+            <button data-testid="reset-button" onClick={reset}>Reset</button>
           </div>
         </div>
     );
