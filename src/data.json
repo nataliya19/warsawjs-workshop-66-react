@@ -1,0 +1,18 @@
+[{
+   "id": 1,
+   "task": "Buy a ticket for workshop",
+   "complete": true
+ }, {
+   "id": 2,
+   "task": "Come and bring your laptop with you",
+   "complete": true
+ }, {
+   "id": 3,
+   "task": "Cofeeee",
+   "complete": false
+ }, {
+   "id": 4,
+   "task": "Have fun",
+   "complete": true
+ }
+]
